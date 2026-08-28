@@ -38,7 +38,7 @@ export const categories: Category[] = [
     slug: "fishing-and-crabbing",
     name: "Fishing and Crabbing",
     description: "Learn about fishing and crabbing in the Chesapeake Bay.",
-    image: "/categories/fishing-crabbing.png",
+    image: "/categories/fishing-crabbing.jpg",
   },
   {
     slug: "seafood-and-human-health",
