@@ -2,6 +2,12 @@ import { notFound } from "next/navigation";
 import QuestionAnswerCard from "@/components/QuestionAnswerCard";
 import { questions } from "@/data/questions";
 
+export function generateStaticParams() {
+  return questions.map((question) => ({
+    slug: question.slug,
+  }));
+}
+
 type QuestionPageProps = {
   params: Promise<{
     slug: string;

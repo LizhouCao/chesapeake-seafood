@@ -4,6 +4,12 @@ import { notFound } from "next/navigation";
 import { categories } from "@/data/categories";
 import { questions } from "@/data/questions";
 
+export function generateStaticParams() {
+  return categories.map((category) => ({
+    category: category.slug,
+  }));
+}
+
 type CategoryPageProps = {
   params: Promise<{
     category: string;
