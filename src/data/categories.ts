@@ -56,6 +56,6 @@ export const categories: Category[] = [
     slug: "S3AM",
     name: "Smart Sustainable Shellfish (S3AM)",
     description: "Learn about the S3AM project and its impact on sustainable shellfish farming.",
-    image: "/categories/s3am.png",
+    image: "/categories/S3AM.png",
   }
 ];
